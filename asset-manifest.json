@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/NetFlix_Clone/static/css/main.b623425b.css",
-    "main.js": "/NetFlix_Clone/static/js/main.55dc4b09.js",
-    "static/js/787.440c4889.chunk.js": "/NetFlix_Clone/static/js/787.440c4889.chunk.js",
-    "static/media/backgroung login.jpg": "/NetFlix_Clone/static/media/backgroung login.c7545cd8dda847a6aa51.jpg",
-    "static/media/png": "/NetFlix_Clone/static/media/580b57fcd9996e24bc43c529.774e8c1632ac9433608b.png",
-    "index.html": "/NetFlix_Clone/index.html",
-    "main.b623425b.css.map": "/NetFlix_Clone/static/css/main.b623425b.css.map",
-    "main.55dc4b09.js.map": "/NetFlix_Clone/static/js/main.55dc4b09.js.map",
-    "787.440c4889.chunk.js.map": "/NetFlix_Clone/static/js/787.440c4889.chunk.js.map"
+    "main.css": "/Abilash-Nambi/NetFlix_Clone.git/static/css/main.c82a2bfb.css",
+    "main.js": "/Abilash-Nambi/NetFlix_Clone.git/static/js/main.10af3839.js",
+    "static/js/787.440c4889.chunk.js": "/Abilash-Nambi/NetFlix_Clone.git/static/js/787.440c4889.chunk.js",
+    "static/media/backgroung login.jpg": "/Abilash-Nambi/NetFlix_Clone.git/static/media/backgroung login.c7545cd8dda847a6aa51.jpg",
+    "static/media/png": "/Abilash-Nambi/NetFlix_Clone.git/static/media/580b57fcd9996e24bc43c529.774e8c1632ac9433608b.png",
+    "index.html": "/Abilash-Nambi/NetFlix_Clone.git/index.html",
+    "main.c82a2bfb.css.map": "/Abilash-Nambi/NetFlix_Clone.git/static/css/main.c82a2bfb.css.map",
+    "main.10af3839.js.map": "/Abilash-Nambi/NetFlix_Clone.git/static/js/main.10af3839.js.map",
+    "787.440c4889.chunk.js.map": "/Abilash-Nambi/NetFlix_Clone.git/static/js/787.440c4889.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b623425b.css",
-    "static/js/main.55dc4b09.js"
+    "static/css/main.c82a2bfb.css",
+    "static/js/main.10af3839.js"
   ]
 }
