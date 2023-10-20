@@ -1,0 +1,181 @@
+.nav {
+  width: 100%;
+  height: 3.8rem;
+  position: fixed;
+  background: linear-gradient(
+    to bottom,
+    rgba(22, 22, 22, 0.801),
+    rgba(22, 22, 22, 0.493),
+    transparent
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  font-size: 1.4rem;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav__list--right {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav__item {
+  margin-right: 2rem;
+  color: white;
+  font-size: 15px;
+}
+
+.nav--right .nav__item {
+  margin-right: 2vw;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white !important;
+  background-color: transparent;
+  border: none;
+  cursor: pointer !important;
+  font-size: 15px;
+  padding: 3px 6px;
+  transition: all 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #ddd !important;
+}
+
+.nav__link--selected {
+  font-weight: bolder;
+  cursor: inherit;
+}
+
+.nav__link--selected:hover {
+  color: inherit;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav--scrolled {
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0) 10%,
+    rgb(8, 8, 8) 50%,
+    rgb(17, 17, 17) 100%
+  );
+  /* animation: appear 0.5s; */
+}
+
+.nav--left,
+.nav--right {
+  display: flex;
+  align-items: center;
+}
+
+.nav--left {
+  margin-left: 3vw;
+  height: 100%;
+}
+
+.nav--right {
+  margin-right: 3vw;
+  height: 100%;
+}
+
+.nav_logo {
+  height: 4.5rem;
+  cursor: pointer;
+}
+
+.nav--right i {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav--right span {
+  margin-top: -3px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user i {
+  margin-top: -5px;
+}
+
+.nav_avatar {
+  height: 2.2rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+}
+
+.icon--down {
+  margin-left: 1rem;
+  font-size: 1.8rem;
+  margin-top: -6px;
+}
+
+.icon--up {
+  position: absolute;
+  top: -0.9rem;
+  font-size: 2rem;
+}
+
+/* Add these styles to your CSS file */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  top: 30px; /* Adjust the top position as needed */
+  right: 0;
+  list-style: none;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+}
+
+/* Add any additional styles for your dropdown */
+
+/****************** MEDIA QUERIES ****************/
+
+@media (max-width: 900px) {
+  .nav__list {
+    display: none;
+  }
+}

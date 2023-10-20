@@ -1,0 +1,28 @@
+/* Dropdown styles */
+.dropdown {
+  position: relative !important;
+  /*  display: inline-block; */
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #171515;
+  box-shadow: 0 2px 4px rgba(167, 163, 163, 0.2);
+  min-width: 150px;
+  z-index: 1;
+  border: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(254, 254, 254);
+}
