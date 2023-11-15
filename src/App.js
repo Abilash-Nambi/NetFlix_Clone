@@ -14,10 +14,8 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // Set up Firebase authentication listener
     const unsubscribe = auth.onAuthStateChanged((userAuth) => {
       if (userAuth) {
-        // User is logged in
         dispatch(
           login({
             uid: userAuth.uid,
@@ -25,7 +23,6 @@ function App() {
           })
         );
       } else {
-        // User is logged out
         dispatch(logout());
       }
     });
